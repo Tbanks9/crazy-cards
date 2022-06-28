@@ -4,29 +4,10 @@ import {
   StyledMainContainer,
   StyledButton,
   StyledFormContainer,
+  StyledCards,
+  StyledNav,
 } from "../index.styles";
 import { FormTypes } from "../";
-import styled from "styled-components";
-
-const StyledCards = styled.div`
-  width: 325px;
-  font-size: 15px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 25px;
-  border: 1px solid #5b6b79;
-  padding: 20px;
-  margin-bottom: 20px;
-  font-family: Nunito, Arial, sans-serif;
-  cursor: pointer;
-`;
-
-const StyledNav = styled.nav`
-  width: fill-available;
-  height: fit-content;
-  padding: 20px;
-  background: #0f0a3a;
-`;
 
 interface CardTypes {
   id: number;
